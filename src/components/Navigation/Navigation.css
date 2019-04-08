@@ -1,0 +1,14 @@
+.navigation {
+	background-image: url('../BackgroundImage/background.png');
+	background-size: auto;
+	padding: 20px;
+}
+
+.login_button {
+	display: flex;
+	float: right;
+}
+
+.sign_out_button {
+	display: flex;
+}

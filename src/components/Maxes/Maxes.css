@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.maxes_form {
+	background-image: url('../BackgroundImage/background.png');
+	height: 100vh;
+	color: white;
+}
+
+.maxes_grid {
+	background-image: url('../BackgroundImage/background.png');
+	position: absolute;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+}

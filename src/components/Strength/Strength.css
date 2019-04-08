@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.strength_page {
+	background-image: url('../BackgroundImage/background.png');
+	height: 100vh;
+}
+
+.strength_grid {
+	background-image: url('../BackgroundImage/background.png');
+}
+
+.program_title {
+	padding: 20px;
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 8vh;
+}
+
+.strength_card {
+	transition: all .2s ease-in-out;
+}
+
+.strength_card:hover {
+	transform: scale(1.03)
+}
+
+h1 {
+font-family: 'Righteous', cursive;
+}

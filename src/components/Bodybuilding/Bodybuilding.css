@@ -1,0 +1,16 @@
+.bodybuilding_page {
+	background-image: url('../BackgroundImage/background.png');
+	height: 100vh;
+}
+
+.bodybuilding_grid {
+	background-image: url('../BackgroundImage/background.png');
+}
+
+.bodybuilding_card {
+	transition: all .2s ease-in-out;
+}
+
+.bodybuilding_card:hover {
+	transform: scale(1.03)
+}

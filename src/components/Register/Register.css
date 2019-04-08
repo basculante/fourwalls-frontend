@@ -1,0 +1,6 @@
+.register_page {
+	background-image: url('../BackgroundImage/background.png');
+	height: 100vh;
+	padding: 50px;
+	color: white;
+}

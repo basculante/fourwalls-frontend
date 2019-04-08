@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.program_page {
+	background-image: url('./BackgroundImage/background.png');
+	font-family: 'Righteous', cursive;
+}
+
+.program_grid {
+	background-image: url('./BackgroundImage/background.png');
+}
+
+.program_table {
+	margin-bottom: 5vh !important;
+	height: 100vh;
+}
