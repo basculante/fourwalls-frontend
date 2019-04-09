@@ -259,10 +259,10 @@ class Maxes extends React.Component {
 							<Grid columns={2} className="maxes_grid">
 								<Grid.Row>
 									<Grid.Column textAlign={'center'}>
-										<h2>1 Rep Max</h2>
+										<h2>1 Rep Max (lbs)</h2>
 									</Grid.Column>
 									<Grid.Column textAlign={'center'}>
-										<h2> Weight Increment</h2>
+										<h2> Weight Increment (lbs)</h2>
 									</Grid.Column>
 								</Grid.Row>
 								<Grid.Row verticalAlign={'middle'}>
@@ -332,10 +332,10 @@ class Maxes extends React.Component {
 								<Grid columns={2} className="maxes_grid">
 									<Grid.Row >
 										<Grid.Column textAlign={'center'}>
-											<h2>1 Rep Max</h2>
+											<h2>1 Rep Max (lbs)</h2>
 										</Grid.Column>
 										<Grid.Column textAlign={'center'}>
-											<h2> Weight Increment</h2>
+											<h2> Weight Increment (lbs)</h2>
 										</Grid.Column>
 									</Grid.Row>
 									<Grid.Row verticalAlign={'middle'}>

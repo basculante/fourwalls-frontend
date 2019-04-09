@@ -22,8 +22,11 @@ class Homepage extends React.Component {
 		        <span className="vectro-blue">I</span>
         	</h1>
 					</Grid.Row>
+					<Grid.Row centered>
+						<h2 className="program_subtitle">Select a goal.</h2>
+					</Grid.Row>
 					<Grid.Row>
-						<Grid.Column style={{paddingRight:'50px', paddingLeft: '50px', paddingTop:'10px'}}>
+						<Grid.Column style={{paddingRight:'100px', paddingLeft: '100px', paddingTop:'10px'}}>
 							<Card centered raised fluid className="goal_card">
 							<Link to="/maxes" onClick={this.props.selectStrength} className="goal_link">
 									<Image src={require('../Strength/StrengthImages/Strength.jpg')} fluid />
@@ -31,7 +34,7 @@ class Homepage extends React.Component {
 							</Link>
 							</Card>
 						</Grid.Column>
-						<Grid.Column style={{paddingRight:'50px', paddingLeft: '50px', paddingTop:'10px'}}>
+						<Grid.Column style={{paddingRight:'100px', paddingLeft: '100px', paddingTop:'10px'}}>
 							<Card centered raised fluid className="goal_card">
 							<Link to="/maxes" onClick={this.props.selectBodybuilding} className="goal_link">
 									<Image src={require('../Bodybuilding/BodybuildingImages/Bodybuilding.jpg')} fluid />

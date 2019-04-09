@@ -16,8 +16,8 @@ class NoviceRoutine extends React.Component {
 						<Grid.Row centered textAlign={'center'}>
 							<h1 className="program_title">NOVICE ROUTINE</h1>
 						</Grid.Row>
-						<Grid.Row centered className="program_subtitle">
-							<h4>Reps x Set (lbs)</h4>
+						<Grid.Row centered>
+							<h4 className="program_subtitle">Reps x Set (lbs)</h4>
 						</Grid.Row>
 						<Grid.Row>
 							<Table unstackable className="program_table">
