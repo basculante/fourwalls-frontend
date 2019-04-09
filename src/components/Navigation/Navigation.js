@@ -13,6 +13,9 @@ class Navigation extends React.Component {
 		if (this.props.authenticated === true){
 			return (
 				<div className="navigation">
+					<Link to='/'>
+						<Button>Home</Button>
+					</Link>
 					<Button onClick={ this.onSignOutClick } className="sign_out_button">Sign Out</Button>
 				</div>
 			);

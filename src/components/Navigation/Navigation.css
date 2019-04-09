@@ -11,4 +11,5 @@
 
 .sign_out_button {
 	display: flex;
+	float: right;
 }
