@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
-import Navigation from '../components/Navigation/Navigation';
 import App from '../components/App';
 import Maxes from '../components/Maxes/Maxes';
 import Signin from '../components/Signin/Signin';

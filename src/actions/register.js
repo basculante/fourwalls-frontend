@@ -4,7 +4,7 @@ export function register (registerName, registerEmail, registerPassword, history
 	return (dispatch) => {
 			 axios({
 				method: 'post',
-				url: 'http://localhost:3000/register',
+				url: 'https://safe-atoll-21718.herokuapp.com/register',
 				data:{
 					name: registerName,
 					email: registerEmail,

@@ -4,7 +4,7 @@ export function authenticatedSubmitMaxes(id, squat, bench, deadlift, ohp, powerc
 	return (dispatch) => {
 		axios({
 			method: 'put',
-			url: 'http://localhost:3000/maxes',
+			url: 'https://safe-atoll-21718.herokuapp.com/maxes',
 			data: {
 				id,
 				squat,

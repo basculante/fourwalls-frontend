@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Container, Card, Image } from 'semantic-ui-react';
+import { Grid, Card, Image } from 'semantic-ui-react';
 import './Strength.css';
 import Navigation from '../Navigation/Navigation';
 

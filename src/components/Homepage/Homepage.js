@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { selectStrength, selectBodybuilding } from '../../actions/goal';
-import { Grid, Button, Image, Card, Container } from 'semantic-ui-react';
+import { Grid, Image, Card } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import './Homepage.css';

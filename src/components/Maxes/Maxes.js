@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
-import { Grid, Segment, Container, Form, Button, Message } from 'semantic-ui-react';
+import { Grid, Container, Form, Button, Message } from 'semantic-ui-react';
 import { authenticatedSubmitMaxes, unauthenticatedSubmitMaxes } from '../../actions/maxes';
 import Navigation from '../Navigation/Navigation';
 import './Maxes.css';
@@ -241,8 +241,7 @@ class Maxes extends React.Component {
 
 		onSubmitAuthenticated = (formValues) => {
 			const { squat, bench, deadlift, ohp, powerclean, squatIncrement, benchIncrement, deadliftIncrement, ohpIncrement, powercleanIncrement } = formValues
-			this.props.authenticatedSubmitMaxes(this.props.userId, squat, bench, deadlift, ohp, powerclean, squatIncrement, benchIncrement, deadliftIncrement, ohpIncrement, powercleanIncrement, this.props.goal, this.props.history);
-			console.log(squatIncrement)		
+			this.props.authenticatedSubmitMaxes(this.props.userId, squat, bench, deadlift, ohp, powerclean, squatIncrement, benchIncrement, deadliftIncrement, ohpIncrement, powercleanIncrement, this.props.goal, this.props.history);	
 		}
 
 		onSubmitUnauthenticated = (formValues) => {
