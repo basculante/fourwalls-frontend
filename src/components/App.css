@@ -3,6 +3,7 @@
 .program_page {
 	background-image: url('./BackgroundImage/background.png');
 	font-family: 'Righteous', cursive;
+	 white-space: nowrap;
 }
 
 .program_grid {
