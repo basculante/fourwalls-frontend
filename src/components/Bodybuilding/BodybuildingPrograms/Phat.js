@@ -24,6 +24,9 @@ class Phat extends React.Component {
 						<Grid.Row centered textAlign={'center'}>
 							<h1 className="program_title">P.H.A.T. (POWER HYPERTROPHY ADAPTIVE TRAINING)</h1>
 						</Grid.Row>
+						<Grid.Row centered className="program_subtitle">
+							<h4>Reps x Set (lbs)</h4>
+						</Grid.Row>
 						<Grid.Row>
 							<Table unstackable className="program_table">
 								<Table.Header>
