@@ -3,7 +3,8 @@
 .program_page {
 	background-image: url('./BackgroundImage/background.png');
 	font-family: 'Righteous', cursive;
-	 white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 
 .program_grid {
@@ -12,7 +13,6 @@
 
 .program_table {
 	margin-bottom: 5vh !important;
-	height: 100vh;
 }
 
 .program_subtitle {
